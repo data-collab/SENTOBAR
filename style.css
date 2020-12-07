@@ -1,0 +1,1072 @@
+html body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    
+}
+.navbar-css {
+    background-color: #222227;
+    height: 90px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    margin-right: 120px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #fff;
+    opacity: 0.5;
+    transition: .5s;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon:hover {
+    margin-right: 120px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #fff;
+    opacity: 1.0;
+    
+}
+.carousel-control-next-icon {
+    margin-right: -90px;
+    
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #fff;
+    opacity: 0.5;
+
+}
+.carousel-control-next-icon:hover {
+    margin-right: -90px;
+    
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border: 1px solid #fff;
+    opacity: 1.0;
+
+}
+.navbar-css .container-fluid-12 .nav-item .nav-link-font-b{
+    background-color: #9e8a78;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    /* margin-top: -10px; */
+    margin-left: 5px;
+    margin-right: 40px;
+    padding: 15px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link-font:hover {
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+}
+.navbar-css .container-fluid-12 .nav-item .nav-link-font-b:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    
+    
+}
+.dropdown-content1 {
+    display: none;
+}
+.carousel-page-left {
+    height: 30px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    padding: 6px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+
+.fa-bars {
+    color: white;
+    font-size: 25px;
+}
+.navbar-dark .navbar-toggler {
+    border: none;
+   
+}
+.haircut-text {
+    text-align: start;
+}
+.navbar-dark .navbar-nav .nav-link-font {
+    font-family: "Open Sans", serif;
+    padding: 10px 10px;
+    margin: 0;
+    color: #999;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #222227;
+}
+.carousel-caption {
+    margin-top: -20%;
+    position: absolute;
+    right: 15%;
+    bottom: 125px;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.carousel-item h1, p {
+    text-align: start;
+}
+.buttons-div {
+    text-align: start;
+}
+
+.carousel-item button {
+    background-color: #9e8a78;
+    font-size: 13px;
+    padding: 15px 25px 15px 25px;
+    
+    border: none;
+    border-radius: 0;
+}
+.carousel-item button:hover {
+    background-color: #9e8a78;
+    color: white;
+ 
+}
+.container-supercut {
+    padding: 4%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.supercut-images {
+    width: 50%;
+}
+.supercut-images img {
+    max-width:100%;
+    height: auto;
+    
+}
+.incontainer-supercut {
+    text-align: center;
+    position: relative;
+    width: 50%;
+}
+.introducting {
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    text-align: center;  
+}
+.supercut-title {
+    font-weight: 500;
+    font-family: "Playfair Display", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #222;
+    width: 80%;
+    margin:auto ;
+    text-align: center;
+}
+.supercut-text {
+    width: 90%;
+    margin:auto;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    color: #777777;
+    text-align: center;
+}
+.supercut-logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-icon {
+    background-color:#fcf9f7;
+    padding-bottom: 10%;
+}
+.icon-title {
+    padding-top: 5%;
+}
+.icons {
+    padding-top: 7%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon-card {
+    width: 25%;
+}
+.icon-card img {
+    margin-left: 40%;
+
+    height: 60px;
+}
+.icon-card-title {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.icon-text {
+    text-align: center;
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    color: #777777;
+}
+
+.parallax-effect {
+    background-color: #fafafa;
+    background-image: url(http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/testimonial.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-container {
+    display: flex;
+}
+.parallax-appointment {
+
+    width: 45%;
+    margin: auto;
+    height: 50%;
+    margin-left: auto;
+    text-align: center;
+}
+.parallax-title {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    text-align: start;
+    padding-bottom: 20px;
+
+    
+    
+}
+.parallax-text {
+    color: white;
+    width: 95%;
+    margin: auto;
+    font-size: 15.5px;
+}
+.parallax-card {
+    background-color: white;
+    height: 550px;
+    width: 500px;
+    margin:100px;
+    margin-left: 30px;
+   
+}
+.parallax-card-title {
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    margin-top: 8%;
+
+}
+.parallax-card-text {
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    color: #777777 ;
+
+}
+.card-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin:auto ;
+    margin-top: 20%;
+    position: relative;
+}
+.card-form input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 47%;
+    border: 0px 0px 0px 0px;
+
+}
+.send-messege {
+    text-transform: uppercase;
+    background-color:  #9e8a78;
+    border: none;
+    color: white;
+    width: 30%;
+}
+.select-form{
+    
+    background-color: white;
+    border: none;
+    color: gray;
+    width: 47%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid;
+}
+.select-form option {
+
+    
+    background-color:  white;
+    border: none;
+    color: gray;
+    width: 47%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.our-team {
+    width: 95%;
+    margin: auto;
+}
+.our-team-header {
+    margin-top: 100px;
+
+}
+.our-team-title {
+    font-weight: 500;
+    font-family: "Playfair Display", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #222;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.our-team-text {
+    width: 42%;
+    margin:auto;
+    padding: 10px;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 14.5px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    color: #777777;
+    text-align: center;
+
+}
+.our-team-card-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 8%;
+
+}
+.our-team-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: start;
+    margin-bottom: 10%;
+
+    
+
+}
+.our-team-cards img {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.team-info, h4,  p {
+    text-align: center;
+    
+}
+.team-box {
+    position: relative;
+    overflow: hidden;
+}
+.team-info {
+    background-color: rgba(158, 138, 120, 0.8);
+    padding: 20px 10px;
+    width: 100%;
+    height: 30%;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+.team-box:hover img {
+    
+    filter: grayscale();
+    transition: all 0.2s ease-in-out;
+}
+.team-box:hover .team-info {
+    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
+.parallax-effect-2 {
+    background-color: #fafafa;
+    background-image: url(http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/testimonial.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.parallax-effect-2-paragraph {
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin-bottom: 250px;
+    font-size: 22px;
+    padding-top: 220px;
+}
+.parallax-effect-2-paragraph h4 {
+    width: 50%;
+    margin: auto;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 15px
+}
+.pricing-container{
+    
+    width: 98%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background-color: #fcf9f7; */
+}
+.pricing-title-text {
+    width: 38%;
+    margin: auto;
+    font-size: 14px;
+}
+.pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pricing-card {
+    margin-top: 10%;
+    background-color: #fcf9f7;
+    text-align: center;
+    max-width: 300px;
+    height: auto;
+}
+.pricing-icon {
+    padding: 50px;
+    padding-bottom: 10px;
+}
+.pricing-title-2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+.hr {
+    width: 20%;
+}
+.pricing-text {
+    width: 65%;
+    margin: auto;
+    color: gray;
+}
+.pricing-button {
+    border-radius: 0;
+    border: none;
+    background-color: #938a78;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.parallax-effect-3 {
+    background-image: url(http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/cta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.parallax-effect-3-paragraph {
+    width: 90%;
+    margin: auto;
+    color: white;
+    margin-bottom: 250px;
+    font-size: 22px;
+    padding-top: 220px;
+    text-align: center;
+
+}
+.parallax-effect-3-paragraph h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.latest-stories {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.latest-stories-img img {
+   max-width: 100%;
+   height: auto;
+   transition: all 0.3s ease-in-out;
+   opacity: .7;
+}
+
+/* .latest-stories-card img :hover {
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0.5;
+
+} */
+.latest-stories-cards {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.latest-stories-card {
+    max-width: 350px;
+    height: auto;
+    background-color: #fcf9f7;
+    margin-bottom: 30px;
+}
+
+.latest-stories-img img:hover {
+    background: rgba(0,0,0,0.7);
+    opacity: 1;
+    
+}
+.latest-stories-card-title-1 {
+    text-align: start;
+    font-size:13px ;
+    padding-top:10px;
+    padding-left: 10px;
+    color: gray;
+}
+.latest-stories-card-title-2 {
+    text-align: start;
+    font-size: 27px ;
+    padding-top:10px;
+    padding-left: 10px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+.latest-stories-card-text {
+    text-align: start;
+    font-size:14px ;
+    padding-top:10px;
+    padding-left: 10px;
+    color: gray;
+    width: 95%;
+    line-height: 26px;
+}
+.logos-container {
+    width: 100%;
+    background-color: #fcf9f7;
+    display: flex;
+    justify-content: space-around;
+
+}
+.company-logo img {
+    max-width: 100%;
+    height: auto;
+}
+.footer-container {
+    background-color: #222227;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-inside{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.address-text {
+    color: gray;
+}
+.first-container{
+    margin-top: 10%;
+}
+.second-container{
+    margin-top: 10%;
+}
+.third-container{
+    margin-top: 10%;
+    max-width: 100%;
+}
+.recent-posts {
+    font-size: 23px;
+    margin-left: 10%;
+}
+.recent-posts-ul{
+    width: 90%;
+    margin: auto;
+    line-height: 33px;
+    color: gray;
+}
+.third-container input {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+    border-radius: 0;
+    width: 70%;
+    transition: all 0.5s ease-in-out;
+}
+.third-container-button {
+    background-color: #9e8a78;
+    color: #fff;
+    font-family: "Open Sans", serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    border: none;
+    width: 30%;
+    border-radius: 0;
+    letter-spacing: 1;
+    transition: all 0.5s ease-in-out;
+}
+.third-container-button:hover{
+    background-color: #897666;
+    transition: all 0.5s ease-in-out;
+}
+
+.sentobar-logo {
+    padding-bottom: 20px;
+    
+}
+.address-text {
+    text-align: start;
+}
+
+.icons-in-footer {
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    width: 40%;
+    height: auto;
+    list-style-type: none;
+    text-align: start;
+
+}
+.another {
+    opacity: .5;
+}
+.another:hover {
+    opacity: 1;
+}
+.icon {
+    color: white;
+    padding: 5px;
+    padding-left:10%;
+    
+}
+.icon:hover {
+    color: gray;
+}
+.copyright {
+    background-color: #222227;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.classic-hr{
+    background-color: gray;
+}
+.copyright-width {
+    color: #bbb;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+ 
+}
+@media (max-width: 993px) {
+    .logos-container{
+        display: none;
+    }
+    .navbar-css .container-fluid-12 .nav-item .nav-link-font-b{
+        display: none;
+        
+    }
+    .dropdown-content1 {
+        display: inline;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+    }
+    .container-icon {
+        background-color:#fcf9f7;
+    }
+    .icon-title {
+        padding-top: 10%;
+    }
+    .icons {
+        padding-top: 7%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-card {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+    .icon-card img {
+        margin-left: 40%;
+    
+        height: 60px;
+    }
+    .icon-card-title {
+        text-align: center;
+        padding-top: 10px;
+        font-weight: 400;
+    }
+    .icon-text {
+        text-align: center;
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        color: #777777;
+    }
+    
+    
+
+}
+ /* @media (max-width: 745px){
+    .navbar-dark .navbar-toggler {
+        border: none;
+        margin-left: 300px;
+    }
+} */
+
+@media (max-width: 800px){
+    .container-supercut {
+        margin-top: 10%;
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .supercut-images {
+        width: 100%;
+        text-align: center;
+    }
+    .supercut-images img {
+        max-width:100%;
+        height: auto;
+         
+        
+    }
+    .our-team-text {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 26px;
+        color: #777777;
+        text-align: center;
+    }
+    .incontainer-supercut {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+    .introducting {
+        color: gray;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;   
+    }
+    .supercut-title {
+        font-weight: 500;
+        font-family: "Playfair Display", Sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #222;
+        width: 80%;
+        margin:auto ;
+        text-align: center;
+    }
+    .supercut-text {
+        width: 90%;
+        margin:auto;
+        font-family: "Open Sans", Sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 26px;
+        color: #777777;
+        text-align: center;
+    }
+    .supercut-logo {
+        /* margin: 50px; */
+        height: auto;
+        max-width: 100%;
+    }
+    .carousel-control-next-icon {
+   
+        padding-bottom: 20px;
+        border: 1px solid #fff;
+        opacity: 0.5;
+    }
+    .carousel-control-next-icon {
+        margin-right: 0px; 
+        padding-left: 0px;
+        padding-bottom: 20px;
+        border: 1px solid #fff;
+        opacity: 0.5;
+    }
+    .icon-card {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .parallax-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .parallax-appointment {
+    
+        width: 70%;
+        margin: auto;
+        height: 50%;
+        margin-left: auto;
+        text-align: center;
+    }
+    .parallax-title {
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        width: 95%;
+        height: 50%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    
+        
+        
+    }
+    .parallax-text {
+        color: white;
+        width: 130%;
+        margin: auto;
+        font-size: 15.5px;
+        margin-left: -15%;
+        text-align: center;
+    }
+    .parallax-card {
+        background-color: white;
+        height: 550px;
+        width: 95%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 10%;
+       
+    }
+    .parallax-card-title {
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+        margin-top: 8%;
+    
+    }
+    .parallax-card-text {
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        color: #777777 ;
+    
+    }
+    .card-form {
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 96%;
+    
+        margin-top: 8%;
+        position: relative;
+    }
+    .card-form input{
+        height: 40px;
+    width: 96%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+    }
+    input.send-messege {
+        text-transform: uppercase;
+        background-color:  #9e8a78;
+        border: none;
+        color: white;
+        width: auto;
+        padding: 10px;
+        
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        margin-right: 45%;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #fff;
+        opacity: 0.5;
+        transition: .5s;
+    }
+    .select-form{
+        
+        background-color: white;
+        border: none;
+        color: gray;
+        width: 96%;
+        margin-left: 12px;
+    
+        /* height: 40px; */
+        border: 1px solid;
+    }
+    .select-form option {
+    
+        
+        background-color:  white;
+        border: none;
+        color: gray;
+        width: 47%;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+    .parallax-card-box {
+        height: auto;
+        background-color: white;
+        
+    }
+    
+    
+} 
+
+@media (max-width: 450px){
+.select-form {
+    background-color: white;
+    border: none;
+    color: gray;
+    width: 96%;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    /* height: 40px; */
+    border: 1px solid;
+}
+.navbar-brand img {
+    width: 200px;
+    margin-left: 0px;
+    padding: 10px;
+}
+.navbar-css {
+    background-color: #222227;
+    height: auto;
+}
+.parallax-effect-2-paragraph {
+    width: 95%;
+    margin: auto;
+    color: white;
+    margin-bottom: 250px;
+    font-size: 18px;
+    padding-top: 170px;
+}
+.parallax-effect-2-paragraph h4 {
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 11px
+}
+.address-text{
+    width: 60%;
+    margin: auto;
+}
+.sentobar-logo img{
+    width: 100%;
+}
+
+}
